@@ -54,8 +54,8 @@ VaiRoga is combined by using to words Vai derived from Vaidya means “Doctor”
 It is web app and android app for doctors and patients to communicate with each other conveniently in the face of pandemic.
 <img src=".\assets\images\img1.png">
 <img src="https://github.com/sanskar0901/VaiRoga/blob/main/assets/images/img-2.png">
-<img src=".\assets\images\img3.jpeg" width=150>
-<img src=".\assets\images\img4.jpeg" width=150>
+<img src=".\assets\images\img3.jpeg" width=180> 
+<img src=".\assets\images\img4.jpeg" width=180>
 
 ## Technology Principles Proposed 💡
 
