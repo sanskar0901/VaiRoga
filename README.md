@@ -16,7 +16,7 @@
 
 <a href="https://hack36.com"> <img src="https://i.ibb.co/3vMYD6M/Made-at-Hack-36.png" height=20px> </a>
 
-![](./assets/images/favicon.png =250x)
+![](./assets/images/favicon.png =100x100)
 
 ## Problem Statement 🚧
 
