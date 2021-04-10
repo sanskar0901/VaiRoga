@@ -18,6 +18,7 @@
 
 
 ## Problem Statement 🚧
+improving quality and effecienty of medical staff in this time of pandemic 
 
 <h3>Epidemic spread prediction</h3>
 
