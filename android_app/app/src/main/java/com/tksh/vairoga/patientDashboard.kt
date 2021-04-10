@@ -98,7 +98,7 @@ class patientDashboard : AppCompatActivity() {
                         val data = item as medicalViewholder
                         val intent = Intent(view.context,PrescriptionDetails::class.java)
                         intent.putExtra(PatientDetails.PRESCRIPTION_DATE_KEY, data.prescription.date)
-                        intent.putExtra(PatientDetails.PRESCRIPTION_SYMPTIONS_KEY, data.prescription.symptomps)
+                        intent.putExtra(PatientDetails.PRESCRIPTION_SYMPTIONS_KEY, data.prescription.symptoms)
                         intent.putExtra(PatientDetails.PRESCRIPTION_TESTS_KEY, data.prescription.tests)
                         startActivity(intent)
                     }

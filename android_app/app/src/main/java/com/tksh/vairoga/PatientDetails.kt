@@ -64,7 +64,7 @@ class PatientDetails : AppCompatActivity() {
                             val data = item as prescriptionViewholder
                             val intent = Intent(view.context, PrescriptionDetails::class.java)
                             intent.putExtra(PRESCRIPTION_DATE_KEY, data.prescription.date)
-                            intent.putExtra(PRESCRIPTION_SYMPTIONS_KEY, data.prescription.symptomps)
+                            intent.putExtra(PRESCRIPTION_SYMPTIONS_KEY, data.prescription.symptoms)
                             intent.putExtra(PRESCRIPTION_TESTS_KEY, data.prescription.tests)
                             startActivity(intent)
                         }
