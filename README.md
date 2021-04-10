@@ -53,6 +53,8 @@ VaiRoga is combined by using to words Vai derived from Vaidya means “Doctor”
 It is web app and android app for doctors and patients to communicate with each other conveniently in the face of pandemic.
 <img src=".\assets\images\img1.png">
 <img src=".\assets\images\img2.png">
+<img src=".\assets\images\img3.png">
+<img src=".\assets\images\img4.png">
 
 ## Technology Principles Proposed 💡
 
@@ -70,14 +72,14 @@ It is web app and android app for doctors and patients to communicate with each 
 - Javascript
 - Kotlin
 
-## Tools and APIs 
+## Tools and APIs
 
 - Netlify
 - VsCode
 - Android Studio
 - Corna API
 
-## Use Cases 
+## Use Cases
 
 1. Reusable code that can be customized for other additional features.
 2. Effective in dealing with the current situation.
