@@ -1,8 +1,8 @@
 # VaiRoga
 
-# Hack36 B1NERY B0SSES
+# Hack36 B1NARY B0SSES
 
-#### Official Entry of Team B1NERY B0SSES , from SRM Institute of Science and Technology Kattankulathur, to Hack36
+#### Official Entry of Team B1NARY B0SSES , from SRM Institute of Science and Technology Kattankulathur, to Hack36
 
 #### View Track Iconic in action🚀 : [LIVE ON NETLIFY] (https://trackiconic.xyz/) or (https://zen-pare-d19d57.netlify.app/)
 
@@ -67,7 +67,7 @@ It is web app and android app for doctors and patients to communicate with each 
 
 ## Collaborators 🤖
 
-Team Name: The Unacceptable
+Team Name: B1NARY B0SSES
 
 - [Sanskar Gupta](https://github.com/sanskar0901)
 - [Tanishq Kashyap](https://github.com/Tanishq2505)
