@@ -4,7 +4,7 @@
 
 #### Official Entry of Team B1NARY B0SSES , from SRM Institute of Science and Technology Kattankulathur, to Hack36
 
-#### View Track Iconic in action🚀 : [LIVE ON NETLIFY](https://vairoga.netlify.app/)
+#### View VaiRoga in action🚀 : [LIVE ON NETLIFY](https://vairoga.netlify.app/)
 
 <br>
 
