@@ -15,8 +15,7 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 <a href="https://hack36.com"> <img src="https://i.ibb.co/3vMYD6M/Made-at-Hack-36.png" height=20px> </a>
-
-![11-04-2021](https://github.com/sanskar0901/VaiRoga/blob/main/assets/images/favicon.png)
+<img src="https://github.com/sanskar0901/VaiRoga/blob/main/assets/images/favicon.png" width=200>
 
 ## Problem Statement 🚧
 
