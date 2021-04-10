@@ -59,7 +59,6 @@ It is web app and android app for doctors and patients to communicate with each 
 
 1. Reusable code that can be customized for other additional features.
 2. Effective in dealing with the current situation.
-3. The Hardware is easily upgradeble.
 
 ## Future Upgrades 🚀
 
