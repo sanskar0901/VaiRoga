@@ -52,8 +52,8 @@ We’re living in a digital age where technology had a transformative effect on 
 VaiRoga is combined by using to words Vai derived from Vaidya means “Doctor” and Roga means “Disease”.
 
 It is web app and android app for doctors and patients to communicate with each other conveniently in the face of pandemic.
-<img src=".\assets\images\img1.png" width=300>
-<img src="https://github.com/sanskar0901/VaiRoga/blob/main/assets/images/img-2.png" width=300>
+<img src=".\assets\images\img1.png" width=1000>
+<img src="https://github.com/sanskar0901/VaiRoga/blob/main/assets/images/img-2.png" width=1000>
 <img src=".\assets\images\img3.jpeg" width=180> 
 <img src=".\assets\images\img4.jpeg" width=180>
 
