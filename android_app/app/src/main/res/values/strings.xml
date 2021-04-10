@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VaiRoga</string>
+    <string name="doctor_s_login">Doctor\'s Login</string>
+    <string name="patient_s_login">Patient\'s Login</string>
+    <string name="emergency">Emergency!</string>
+    <string name="covid_19_cases">COVID-19 CASES</string>
+</resources>

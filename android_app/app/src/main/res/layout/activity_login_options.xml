@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginOptions"
+    android:background="@color/off_white">
+
+    <Button
+        android:id="@+id/btn_doctorLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/doctor_s_login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.349"
+        android:textColor="@color/off_white"
+        android:background="@drawable/bg_purple"
+        android:padding="15dp"/>
+
+    <Button
+        android:id="@+id/btn_patientLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/patient_s_login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.465"
+        android:background="@drawable/bg_green"
+        android:textColor="@color/off_white"
+        android:padding="15dp"/>
+
+    <Button
+        android:id="@+id/btn_emergency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hapticFeedbackEnabled="true"
+        android:text="@string/emergency"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.594"
+        android:backgroundTintMode="add"
+        android:padding="15dp"
+        android:background="@drawable/bg_red"
+        android:textColor="@color/off_white"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
