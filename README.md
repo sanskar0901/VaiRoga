@@ -1,4 +1,4 @@
-# VaiRoga <img src="https://github.com/sanskar0901/VaiRoga/blob/main/assets/images/favicon.png" width=50>
+# <img src="https://github.com/sanskar0901/VaiRoga/blob/main/assets/images/favicon.png" width=50>VaiRoga 
 
 # Hack36 B1NARY B0SSES
 
@@ -54,8 +54,8 @@ VaiRoga is combined by using to words Vai derived from Vaidya means “Doctor”
 It is web app and android app for doctors and patients to communicate with each other conveniently in the face of pandemic.
 <img src=".\assets\images\img1.png">
 <img src=".\assets\images\img2.png">
-<img src=".\assets\images\img3.jpeg">
-<img src=".\assets\images\img4.jpeg">
+<img src=".\assets\images\img3.jpeg" width=50>
+<img src=".\assets\images\img4.jpeg" width=50>
 
 ## Technology Principles Proposed 💡
 
