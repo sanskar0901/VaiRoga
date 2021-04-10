@@ -17,8 +17,7 @@
 <a href="https://hack36.com"> <img src="https://i.ibb.co/3vMYD6M/Made-at-Hack-36.png" height=20px> </a>
 
 ## Problem Statement 🚧
-
-apedamic spread prediction---
+<h4>Epidemic spread prediction</h4>
 
 as we have a centralized database of each person in each region we can easily mark each region with spread of COVID-19 and also we can easily monitor and predict spread of COVID-19. this can also help gov. to take precaution before hand
 
