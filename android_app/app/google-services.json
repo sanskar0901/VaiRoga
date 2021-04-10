@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "379003828158",
+    "project_id": "vairoga-d0b49",
+    "storage_bucket": "vairoga-d0b49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379003828158:android:c6378e9a5a9b7c1885ebef",
+        "android_client_info": {
+          "package_name": "com.tksh.vairoga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379003828158-bjsrhm4027gacq5f2kj3hfhorsi9jpvu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxljFpHT_nmHF1qOgCOs8vGEnqWfIe8e0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379003828158-bjsrhm4027gacq5f2kj3hfhorsi9jpvu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
