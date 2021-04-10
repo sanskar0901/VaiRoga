@@ -58,9 +58,7 @@ It is web app and android app for doctors and patients to communicate with each 
 
 - Mobile First
 - Interoperable
-- Modular
 - Minimalist Design
-- Reusable
 - Open APIs
 
 ## Proposed Technology Stack 💻
@@ -70,24 +68,21 @@ It is web app and android app for doctors and patients to communicate with each 
 - BootStrap
 - Firebase
 - Javascript
-- kotlin
+- Kotlin
 
-## Tools and APIs🎯
+## Tools and APIs 
 
 - Netlify
 - VsCode
 - Android Studio
+- Corna API
 
-## Use Cases 🤝
+## Use Cases 
 
 1. Reusable code that can be customized for other additional features.
 2. Effective in dealing with the current situation.
 
-## Future Upgrades 🚀
-
-1. Coming Soon
-
-## Collaborators 🤖
+## Collaborators 👩🏻‍🤝‍🧑🏻👨🏻‍🤝‍👨🏻
 
 Team Name: B1NARY B0SSES
 
