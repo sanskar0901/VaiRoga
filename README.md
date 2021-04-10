@@ -1,4 +1,4 @@
-# VaiRoga
+# VaiRoga <img src="https://github.com/sanskar0901/VaiRoga/blob/main/assets/images/favicon.png" width=200>
 
 # Hack36 B1NARY B0SSES
 
@@ -16,8 +16,6 @@
 
 <a href="https://hack36.com"> <img src="https://i.ibb.co/3vMYD6M/Made-at-Hack-36.png" height=20px> </a>
 
-
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/sanskar0901/VaiRoga/blob/main/assets/images/favicon.png" width=200></p>
 
 ## Problem Statement 🚧
 
