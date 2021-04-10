@@ -94,6 +94,6 @@ Team Name: B1NARY B0SSES
 
 <br>
 
-### Made at:
+
 
 <a href="https://hack36.com"> <img src="https://i.ibb.co/3vMYD6M/Made-at-Hack-36.png" height=50px> </a>
