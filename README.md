@@ -18,7 +18,7 @@
 
 
 ## Problem Statement 🚧
-Improving quality and effecienty of medical staff in this time of pandemic 
+Improving the quality and efficiency of medical care and logistics to improve the quality of life during pandemic. 
 
 <h3>Epidemic spread prediction</h3>
 
