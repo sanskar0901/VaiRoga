@@ -16,6 +16,8 @@
 
 <a href="https://hack36.com"> <img src="https://i.ibb.co/3vMYD6M/Made-at-Hack-36.png" height=20px> </a>
 
+<img src = "/assets/images/favicon.png">
+
 ## Problem Statement 🚧
 
 <h3>Epidemic spread prediction</h3>
