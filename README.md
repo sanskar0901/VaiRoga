@@ -1,4 +1,4 @@
-# VaiRoga
+#VaiRoga 
 
 # Hack36 B1NARY B0SSES
 
@@ -16,7 +16,6 @@
 
 <a href="https://hack36.com"> <img src="https://i.ibb.co/3vMYD6M/Made-at-Hack-36.png" height=20px> </a>
 
-<img src = "/assets/images/favicon.png" style="height:100px;width:100px;">
 
 ## Problem Statement 🚧
 
