@@ -72,7 +72,7 @@ Team Name: The Unacceptable
 - [Sanskar Gupta](https://github.com/sanskar0901)
 - [Tanishq Kashyap](https://github.com/Tanishq2505)
 - [Krti Kakkar](https://github.com/kritiikakkar)
-- [Hrithik Sawant](https://github.com/hrithiksawant29)
+- [Hrithik Sawant](https://github.com/ithiksawant29)
 
 <br>
 
