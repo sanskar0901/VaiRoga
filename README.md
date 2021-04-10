@@ -54,9 +54,7 @@ It is web app and android app for doctors and patients to communicate with each 
 
 - Mobile First
 - Interoperable
-- Modular
 - Minimalist Design
-- Reusable
 - Open APIs
 
 ## Proposed Technology Stack 💻
