@@ -1,4 +1,4 @@
-# VaiRoga <img src="https://github.com/sanskar0901/VaiRoga/blob/main/assets/images/favicon.png" width=20>
+# VaiRoga <img src="https://github.com/sanskar0901/VaiRoga/blob/main/assets/images/favicon.png" width=50>
 
 # Hack36 B1NARY B0SSES
 
