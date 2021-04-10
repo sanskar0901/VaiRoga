@@ -19,7 +19,7 @@
 
 
 ## Problem Statement 🚧
-Improving the quality and efficiency of medical care and logistics to improve the quality of life during pandemic. 
+Improving the quality of life of users and effeciency of medical care by connecting doctors and patients virtually without having them to step out of their homes.
 
 <h3>Epidemic spread prediction</h3>
 
