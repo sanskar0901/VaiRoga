@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Dashboard</title>
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-auth.js"></script>
+  
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
+  <script src="./assets/js/fb.js"></script>
   <!-- plugins:css -->
   <link rel="stylesheet" href="assets/vendors/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="assets/vendors/css/vendor.bundle.base.css">
@@ -31,7 +36,7 @@
       <div class="mdc-drawer__content">
         <div class="user-info">
           <p class="name fb_name">Some Name</p>
-          <p class="email fb_email">namesome@elenor.us</p>
+          <p class="email" id="fb_email">namesome@elenor.us</p>
         </div>
         <div class="mdc-list-group">
           <nav class="mdc-list mdc-drawer-menu">
@@ -56,7 +61,7 @@
         <div class="profile-actions">
           <a href="javascript:;">Settings</a>
           <span class="divider"></span>
-          <a href="javascript:;">Logout</a>
+          <a onclick="return logout();">Logout</a>
         
       </div>
     </aside>
@@ -105,7 +110,7 @@
                       <i class="mdi mdi-settings-outline text-primary"></i>                      
                     </div>
                     <div class="item-content d-flex align-items-start flex-column justify-content-center">
-                      <h6 class="item-subject font-weight-normal">Logout</h6>
+                      <h6 class="item-subject font-weight-normal" onclick="return logout();">Logout</h6>
                     </div>
                   </li>
                 </ul>
@@ -242,7 +247,7 @@
                       <i class="mdi mdi-logout-variant text-primary"></i>                      
                     </div>
                     <div class="item-content d-flex align-items-start flex-column justify-content-center">
-                      <h6 class="item-subject font-weight-normal">Logout</h6>
+                      <h6 class="item-subject font-weight-normal" onclick="return logout();">Logout</h6>
                     </div>
                   </li>
                 </ul>
@@ -327,28 +332,29 @@
                               <tr>
                                 <td>
                                   <span class="flag-icon-container"><i class="flag-icon flag-icon-us mr-2"></i></span>United States</td>
-                                <td>1,671</td>
-                                <td class=" font-weight-medium"> 39% </td>
+                                <td>31.1M</td>
+                                <td class=" font-weight-medium"> 25% </td>
                               </tr>
                               <tr>
-                                <td> <span class="flag-icon-container"><i class="flag-icon flag-icon-ph mr-2"></i></span>Philippines	</td>
-                                <td>1,064</td>
-                                <td class=" font-weight-medium"> 30% </td>
+                                <td> <span class="flag-icon-container"><i class="flag-icon flag-icon-br mr-2"></i></span>Brazil</td>
+                                <td>13.4M</td>
+                                <td class=" font-weight-medium"> 10% </td>
                               </tr>
                               <tr>
-                                <td> <span class="flag-icon-container"><i class="flag-icon flag-icon-gb mr-2"></i></span>United Kingdom</td>
-                                <td>1,055</td>
-                                <td class=" font-weight-medium"> 45% </td>
-                              </tr>
-                              <tr>
-                                <td> <span class="flag-icon-container"><i class="flag-icon flag-icon-ca mr-2"></i></span>Canada</td>
-                                <td>1,045</td>
-                                <td class=" font-weight-medium"> 80% </td>
+                                <td> <span class="flag-icon-container"><i class="flag-icon flag-icon-in mr-2"></i></span>India</td>
+                                <td>13.2M</td>
+                                <td class=" font-weight-medium"> 9% </td>
                               </tr>
                               <tr>
                                 <td> <span class="flag-icon-container"><i class="flag-icon flag-icon-fr mr-2"></i></span>France</td>
-                                <td>2,050</td>
-                                <td class=" font-weight-medium"> 10% </td>
+                                <td>4.94M
+                                </td>
+                                <td class=" font-weight-medium"> 6% </td>
+                              </tr>
+                              <tr>
+                                <td> <span class="flag-icon-container"><i class="flag-icon flag-icon-ru mr-2"></i></span>Russia</td>
+                                <td>4.57M</td>
+                                <td class=" font-weight-medium"> 5% </td>
                               </tr>
                             </tbody>
                           </table>

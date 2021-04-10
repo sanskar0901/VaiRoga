@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-auth.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
+<script src="/VaiRoga/assets/js/fb.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -32,20 +37,20 @@
                       <div class="mdc-layout-grid__inner">
                         <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-12">
                           <div class="mdc-text-field w-100">
-                            <input class="mdc-text-field__input" id="text-field-hero-input">
+                            <input class="mdc-text-field__input" id="l-email">
                             <div class="mdc-line-ripple"></div>
-                            <label for="text-field-hero-input" class="mdc-floating-label">Username</label>
+                            <label for="text-field-hero-input" class="mdc-floating-label">Email</label>
                           </div>
                         </div>
                         <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-12">
                           <div class="mdc-text-field w-100">
-                            <input class="mdc-text-field__input" type="password" id="text-field-hero-input">
+                            <input class="mdc-text-field__input" type="password" id="l-password">
                             <div class="mdc-line-ripple"></div>
                             <label for="text-field-hero-input" class="mdc-floating-label">Password</label>
                           </div>
                         </div>
-                        <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-6-desktop">
-                          <div class="mdc-form-field">
+                        <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-12-desktop">
+                          <!-- <div class="mdc-form-field">
                             <div class="mdc-checkbox">
                               <input type="checkbox"
                                       class="mdc-checkbox__native-control"
@@ -60,14 +65,14 @@
                                 <div class="mdc-checkbox__mixedmark"></div>
                               </div>
                             </div>
-                            <label for="checkbox-1">Remember me</label>
-                          </div>
-                        </div>
-                        <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-6-desktop d-flex align-items-center justify-content-end">
+                        </div> -->
+                        <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-12-desktop d-flex align-items-center justify-content-end">
                           <a href="#">Forgot Password</a>
                         </div>
-                        <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-12">
-                          <a href="../../patient_dashboard.html" class="mdc-button mdc-button--raised w-100">
+                        
+                      </div>
+                      <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-12">
+                          <a class="mdc-button mdc-button--raised w-100"  onclick="return p_login();">
                             Login
                           </a>
                         </div>
@@ -76,7 +81,6 @@
                             Register
                           </a>
                         </div>
-                      </div>
                     </div>
                   </form>
                 </div>

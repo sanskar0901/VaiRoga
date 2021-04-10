@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Dashboard</title>
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-auth.js"></script>
+  
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
+  <script src="./assets/js/fb.js"></script>
   <!-- plugins:css -->
   <link rel="stylesheet" href="assets/vendors/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="assets/vendors/css/vendor.bundle.base.css">
@@ -30,7 +35,7 @@
       <div class="mdc-drawer__content">
         <div class="user-info">
           <p class="name fb_name">Some Name</p>
-          <p class="email fb_email">namesome@elenor.us</p>
+          <p class="email " id="fb_email">namesome@elenor.us</p>
         </div>
         <div class="mdc-list-group">
           <nav class="mdc-list mdc-drawer-menu">
@@ -41,17 +46,17 @@
               </a>
             </div>
             <div class="mdc-list-item mdc-drawer-item">
-              <a class="mdc-drawer-link" href="prescription.html">
+              <a class="mdc-drawer-link" href="prescription.html" onclick="prescription()" type="button">
                 <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">description</i>
                 Prescription
               </a>
             </div>
-            <div class="mdc-list-item mdc-drawer-item">
+            <!-- <div class="mdc-list-item mdc-drawer-item">
               <a class="mdc-drawer-link" href="./pages/samples/Search.html">
                 <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">search</i>
                 Search
               </a>
-            </div>
+            </div> -->
           </nav>
           </div>
             
@@ -60,7 +65,7 @@
         <div class="profile-actions">
           <a href="javascript:;">Settings</a>
           <span class="divider"></span>
-          <a href="javascript:;">Logout</a>
+          <a onclick="return logout();">Logout</a>
         
       </div>
       <div class="mdc-card premium-card">
@@ -125,7 +130,7 @@
                       <i class="mdi mdi-settings-outline text-primary"></i>                      
                     </div>
                     <div class="item-content d-flex align-items-start flex-column justify-content-center">
-                      <h6 class="item-subject font-weight-normal">Logout</h6>
+                      <h6 class="item-subject font-weight-normal" onclick="return logout();">Logout</h6>
                     </div>
                   </li>
                 </ul>

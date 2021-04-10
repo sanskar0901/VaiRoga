@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-auth.js"></script>
+  
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
+  <script src="/VaiRoga/assets/js/fb.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -290,7 +295,7 @@ input[type=submit]:hover {
                 <div class="mdc-notched-outline__trailing"></div>
                 
               </div>
-              <button class="mdc-button mdc-button--raised filled-button--success" type="button" style="height: 42px;margin:1.25px 1.5px;">search</button>
+              <button class="mdc-button mdc-button--raised filled-button--success" type="button" style="height: 42px;margin:1.25px 1.5px;" onclick="search()">search</button>
             </div>
           </div>
         </main>

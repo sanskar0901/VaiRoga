@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>VaiRoga</title>
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-auth.js"></script>
+  
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
+  <script src="./assets/js/fb.js"></script>
   <!-- plugins:css -->
   <link rel="stylesheet" href="assets/vendors/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="assets/vendors/css/vendor.bundle.base.css">
@@ -87,8 +92,8 @@ input[type=submit]:hover {
       </div>
       <div class="mdc-drawer__content">
         <div class="user-info">
-          <p class="name">Clyde Miles</p>
-          <p class="email">clydemiles@elenor.us</p>
+          <p class="name fb_name">Clyde Miles</p>
+          <p class="email" id = "fb_email">clydemiles@elenor.us</p>
         </div>
         <div class="mdc-list-group">
           <nav class="mdc-list mdc-drawer-menu">
@@ -104,12 +109,12 @@ input[type=submit]:hover {
                 Prescription
               </a>
             </div>
-              <div class="mdc-list-item mdc-drawer-item">
+              <!-- <div class="mdc-list-item mdc-drawer-item">
                 <a class="mdc-drawer-link" href="pages/samples/Search.html">
                   <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">search</i>
                   Search
                 </a>
-              </div>
+              </div> -->
            
            
           </nav>
@@ -117,7 +122,7 @@ input[type=submit]:hover {
         <div class="profile-actions">
           <a href="javascript:;">Settings</a>
           <span class="divider"></span>
-          <a href="javascript:;">Logout</a>
+          <a onclick="return logout();">Logout</a>
         </div>
        
       </div>
@@ -139,7 +144,7 @@ input[type=submit]:hover {
                   <span class="figure">
                     <img src="assets/images/faces/face1.jpg" alt="user" class="user">
                   </span>
-                  <span class="user-name">Clyde Miles</span>
+                  <span class="user-name fb_name">Clyde Miles</span>
                 </span>
               </button>
               <div class="mdc-menu mdc-menu-surface" tabindex="-1">
@@ -157,7 +162,7 @@ input[type=submit]:hover {
                       <i class="mdi mdi-settings-outline text-primary"></i>                      
                     </div>
                     <div class="item-content d-flex align-items-start flex-column justify-content-center">
-                      <h6 class="item-subject font-weight-normal">Logout</h6>
+                      <h6 class="item-subject font-weight-normal" onclick="return logout();">Logout</h6>
                     </div>
                   </li>
                 </ul>
@@ -294,7 +299,7 @@ input[type=submit]:hover {
                       <i class="mdi mdi-logout-variant text-primary"></i>                      
                     </div>
                     <div class="item-content d-flex align-items-start flex-column justify-content-center">
-                      <h6 class="item-subject font-weight-normal">Logout</h6>
+                      <h6 class="item-subject font-weight-normal" onclick="return logout();">Logout</h6>
                     </div>
                   </li>
                 </ul>
@@ -312,7 +317,7 @@ input[type=submit]:hover {
               <label for="fname"> Name</label>
               <input type="text" id="pname" name="firstname" placeholder="Patient's name..">
           
-              <label for="lname">date</label>
+              <label for="lname">Date</label>
               <input type="text" id="Date" name="lastname" placeholder="Date..">
 
           
@@ -327,7 +332,7 @@ input[type=submit]:hover {
               <label for="subject">Tests</label>
               <textarea id="Tests" name="subject" placeholder="Write Medicines and Tests" style="height:200px;" readonly="true"></textarea>
           
-              <input class="mdc-button mdc-button--raised filled-button--success" type="submit" value="Submit">
+              <input onclick="return prescription();" class="mdc-button mdc-button--raised filled-button--success" type="button" value="Submit">
           
             </form>
           </div>
