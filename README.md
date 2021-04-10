@@ -50,7 +50,7 @@ We’re living in a digital age where technology had a transformative effect on 
 
 ## About Our Product 🔧
 
-VaiRoga is combined by using to words Vai derived from Vaidya means “Doctor” and Roga means “Disease”.
+VaiRoga is combined by using two words Vai derived from Vaidya means “Doctor” and Roga means “Disease”.
 
 It is web app and android app for doctors and patients to communicate with each other conveniently in the face of pandemic.
 <img src=".\assets\images\img1.png" width=900>
@@ -62,7 +62,7 @@ It is web app and android app for doctors and patients to communicate with each 
 
 - Mobile First
 - Interoperable
-- Minimalist Design
+- Minimalistic Design
 - Open APIs
 
 ## Proposed Technology Stack 💻
