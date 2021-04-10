@@ -29,11 +29,11 @@ In this pandemic time there are many fake doctors especially in rural region who
 
 In this pandemic time all doctor are very busy due to high number of patients in hospitals and COVID-19 tests requires many pre tests but in our aap/webapp we have patient's medical history which will help doctor to give medicine fastly and attended other patients. Due to availability of medical history any nurse or compounder can also give medicine to Patient which will reduce load on drs. 
 
-<h3>health score</h3>
+<h3>Health score</h3>
 
 As we have credit score for loans we can introduce health score for life insurances to prevent defaulters. As treatment of COVID-19 is very costly so many people take loans or life insurance but due to all paper works and checking it takes too much time to pass insurance but with this health score insurance company can give loans on the bases of there health score instantly so patient can start treatment as soon as possible. 
 
-<h3>emergency situation</h3>
+<h3>Emergency situation</h3>
 
 Suppose if a person met with an accident while driving but due to pandemic there is to much rush in hospital and doctors cannot give any treatment before any tests to the person who met accident but in our app/webapp we have a section of qr code scanner where the qr code of patient's aadhar card will be scann and this will give all medical history of that person which will help dr to give him right treatment very easily and fast. 
 
@@ -73,7 +73,6 @@ It is web app and android app for doctors and patients to communicate with each 
 - Netlify
 - VsCode
 - Android Studio
-- VoIP Calls
 
 ## Use Cases 🤝
 
