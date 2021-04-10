@@ -17,50 +17,29 @@
 <a href="https://hack36.com"> <img src="https://i.ibb.co/3vMYD6M/Made-at-Hack-36.png" height=20px> </a>
 
 ## Problem Statement 🚧
-<h4>Epidemic spread prediction</h4>
+<h3>Epidemic spread prediction</h3>
 
-as we have a centralized database of each person in each region we can easily mark each region with spread of COVID-19 and also we can easily monitor and predict spread of COVID-19. this can also help gov. to take precaution before hand
+As we have a centralized database of each person in each region we can easily mark each region with spread of COVID-19 and also we can easily monitor and predict spread of COVID-19. This can also help gov. to take precaution before hand.
 
+<h3>Fake Doctor prevention</h3>
 
+In this pandemic time there are many fake doctors especially in rural region who gives wrong medicine without proper prescription but we have database of all authorized doctors. So we can easily prevent the problem of fake doctor who open clinic and pretend to be a doctor without a degree.
 
- 
-fake dr. prevention---
+<h3>Prescription availability</h3>
 
-In this pandemic time there are many fake drs. Especially in rural region Who gives wrong medicine without proper prescription but we have database of all authorized drs. So we can easily prevent the problem of fake drs. who open clinic and pretend to be adr. without a degree 
+In this pandemic time all doctor are very busy due to high number of patients in hospitals and COVID-19 tests requires many pre tests but in our aap/webapp we have patient's medical history which will help doctor to give medicine fastly and attended other patients. Due to availability of medical history any nurse or compounder can also give medicine to Patient which will reduce load on drs. 
 
+<h3>health score</h3>
 
+As we have credit score for loans we can introduce health score for life insurances to prevent defaulters. As treatment of COVID-19 is very costly so many people take loans or life insurance but due to all paper works and checking it takes too much time to pass insurance but with this health score insurance company can give loans on the bases of there health score instantly so patient can start treatment as soon as possible. 
 
-prescription availability---
+<h3>emergency situation</h3>
 
-In this pandemic time all drs. Are very busy due to high number of patients in hospitals and COVID-19 tests requires many pre tests but in our aap/webaap we have patient's medical history 
-Which will help drs. To give medicine fastly and attended other patients 
+Suppose if a person met with an accident while driving but due to pandemic there is to much rush in hospital and doctors cannot give any treatment before any tests to the person who met accident but in our app/webapp we have a section of qr code scanner where the qr code of patient's aadhar card will be scann and this will give all medical history of that person which will help dr to give him right treatment very easily and fast. 
 
-Due to availability of medical history any nurse or compounder can also give medicine to Patient which will reduce load on drs. 
+<h3>Doctor assistant</h3> 
 
-
-
-
-health score----
-
-as we have credit score for loans we can introduce health score for life insurances to prevent defaulters 
-As treatment of COVID-19 is very costly so many people take loans or life insurance 
-But due to all paper works and checking it takes too much time to pass insurance 
-But with this health score insurance company can give loans on the bases of there health score instantly so patient can start treatment fastly 
-
-
-
-
-emergency situation----
-
-Suppose if a person met with an accident while driving but due to pandemic there is to much rush in hospital and drs cannot give any treatment before any tests to the person who met accident 
-But in our app/webapp we have a section of qr code scanner where the qr code of patient's aadhar card will be scann and this will give all medical history of that person which will help dr to give him right treatment very easily and fastly 
-
-
-
-
-dr. assistant--- 
-
-using probability based modal we can predict disease's test using symptoms this can prevent the problem of dr. unavailablity  in ruler area and it also does the cost cutting by limiting the no. of test
+Using probability based modal we can predict disease's test using symptoms this can prevent the problem of dr. unavailablity  in ruler area and it also does the cost cutting by limiting the no. of test.
 ## Background 📖
 
 We’re living in a digital age where technology had a transformative effect on the way we live and work.
