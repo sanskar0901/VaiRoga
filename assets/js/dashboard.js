@@ -8,10 +8,18 @@
       var revenueChart = new Chart(revenueChartCanvas, {
         type: 'bar',
         data: {
-          labels: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+          labels: [
+            'US',
+            'Brazil',
+            'India',
+            'France',
+            'Russian',
+            'UK',
+            'Turkey',
+          ],
           datasets: [
             {
-              data: [105, 195, 290, 320, 400, 100, 290],
+              data: [31.1, 13.4, 13.2, 4.94, 4.57, 4.37, 3.57],
               backgroundColor: [
                 'rgba(255, 86, 48, 0.3)',
                 'rgba(255, 86, 48, 0.3)',
@@ -37,8 +45,9 @@
                 },
                 ticks: {
                   fontColor: '#bababa',
+                  max: 45,
                   min: 0,
-                  stepSize: 100,
+                  stepSize: 15,
                 },
               },
             ],

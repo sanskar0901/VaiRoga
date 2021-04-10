@@ -18,6 +18,7 @@
 
 
 ## Problem Statement 🚧
+Improving the quality and efficiency of medical care and logistics to improve the quality of life during pandemic. 
 
 <h3>Epidemic spread prediction</h3>
 
@@ -49,19 +50,19 @@ We’re living in a digital age where technology had a transformative effect on 
 
 ## About Our Product 🔧
 
-VaiRoga is combined by using to words Vai derived from Vaidya means “Doctor” and Roga means “Disease”.
+VaiRoga is combined by using two words Vai derived from Vaidya means “Doctor” and Roga means “Disease”.
 
 It is web app and android app for doctors and patients to communicate with each other conveniently in the face of pandemic.
-<img src=".\assets\images\img1.png">
-<img src=".\assets\images\img2.png">
-<img src=".\assets\images\img3.jpeg" width=100>
-<img src=".\assets\images\img4.jpeg" width=100>
+<img src=".\assets\images\img1.png" width=900>
+<img src="https://github.com/sanskar0901/VaiRoga/blob/main/assets/images/img-2.png" width=900>
+<img src=".\assets\images\img3.jpeg" width=180> 
+<img src=".\assets\images\img4.jpeg" width=180>
 
 ## Technology Principles Proposed 💡
 
 - Mobile First
 - Interoperable
-- Minimalist Design
+- Minimalistic Design
 - Open APIs
 
 ## Proposed Technology Stack 💻
